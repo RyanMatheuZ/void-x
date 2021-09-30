@@ -3,14 +3,16 @@
 		<section class="section bg-black">
 			<div class="columns container is-fullhd mx-auto">
 				<article class="column is-half is-full-tablet is-flex is-align-items-center is-justify-content-center">
-					<img src="../static/img/robot-black.jpg" alt="Robô">
+					<img src="../static/img/robot-black.jpg" alt="Robô" title="Robô">
 				</article>
 
 				<article class="column is-flex is-align-items-center is-justify-content-center">
 					<div>
-						<h1 class="has-text-weight-semibold">
-							ROBÔS SÃO O FUTURO
-						</h1>
+						<header>
+							<h1 class="has-text-weight-semibold">
+								ROBÔS SÃO O FUTURO
+							</h1>
+						</header>
 
 						<span class="phrase">
 							"Historicamente, a tecnologia sempre criou mais empregos do que destruiu e não
@@ -44,7 +46,7 @@
 				</article>
 
 				<article class="column is-flex is-align-items-center is-justify-content-center">
-					<img src="../static/img/robot-construction.jpg" alt="Robô em fase de construção">
+					<img src="../static/img/robot-construction.jpg" alt="Robô em fase de construção" title="Robô em fase de construção">
 				</article>
 			</div>
 		</section>
@@ -58,7 +60,7 @@
 				<div class="is-flex is-justify-content-center is-flex-wrap-wrap py-3">
 					<article class="card has-background-white p-4 mx-5 my-3">
 						<div>
-							<img src="../static/icon/automation-icon.svg" alt="Automação" width="50" height="50">
+							<img src="../static/icon/automation-icon.svg" alt="Automação" title="Automação" width="50" height="50">
 						</div>
 
 						<p class="card-header-title is-size-4 px-0 py-2">
@@ -72,7 +74,7 @@
 
 					<article class="card has-background-white p-4 mx-5 my-3">
 						<div>
-							<img src="../static/icon/friend-icon.svg" alt="Amigo" width="50" height="50">
+							<img src="../static/icon/friend-icon.svg" alt="Amigo" title="Amigo" width="50" height="50">
 						</div>
 
 						<p class="card-header-title is-size-4 px-0 py-2">
@@ -86,7 +88,7 @@
 
 					<article class="card has-background-white p-4 mx-5 my-3">
 						<div>
-							<img src="../static/icon/agility-icon.svg" alt="Agilidade" width="50" height="50">
+							<img src="../static/icon/agility-icon.svg" alt="Agilidade" title="Agilidade" width="50" height="50">
 						</div>
 
 						<p class="card-header-title is-size-4 px-0 py-2">

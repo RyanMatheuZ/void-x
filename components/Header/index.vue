@@ -7,7 +7,7 @@
 					:to="{ path: '/' }"
 				>
 					<figure class="image">
-						<img src="../../static/logo/void-logo.svg" alt="Void X">
+						<img src="../../static/logo/void-logo.svg" alt="Void X" title="Void X">
 					</figure>
 				</b-navbar-item>
 			</template>

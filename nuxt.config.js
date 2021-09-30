@@ -12,11 +12,15 @@ export default {
 			{ charset: 'utf-8' },
 			{ name: 'viewport', content: 'width=device-width, initial-scale=1' },
 			{ name: 'robots', content: 'index, follow' },
-			{ hid: 'description', name: 'description', content: 'Void X. O futuro está te esperando!' },
+			{
+				hid: 'description',
+				name: 'description',
+				content: 'Void X. O futuro está te esperando!'
+			},
 			{ name: 'subject', content: 'Venda de produto' },
 			{ name: 'topic', content: 'Tecnologia' },
 			{ name: 'format-detection', content: 'telephone=no' },
-			{ name: 'url', content: 'https://void.vercel.app' },
+			{ name: 'url', content: 'https://void-x.vercel.app' },
 			{ name: 'creator', content: 'Ryan Matheus de Oliveira' },
 			{ name: 'generator', content: 'Visual Studio Code' },
 			{ name: 'theme-color', content: '#222' }

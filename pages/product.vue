@@ -3,14 +3,16 @@
 		<section class="section">
 			<div class="columns container is-fullhd mx-auto">
 				<article class="column is-half is-full-tablet is-flex is-align-items-center is-justify-content-center">
-					<img src="../static/img/robot-product.jpg" alt="Robô para venda">
+					<img src="../static/img/robot-product.jpg" alt="Robô Doméstico para venda" title="Robô Doméstico para venda">
 				</article>
 
 				<article class="column is-flex is-align-items-center is-justify-content-center info">
 					<div class="p-5">
-						<h1 class="is-size-1 has-text-weight-semibold">
-							Robô Doméstico
-						</h1>
+						<header>
+							<h1 class="is-size-1 has-text-weight-semibold">
+								Robô Doméstico
+							</h1>
+						</header>
 
 						<p class="is-size-5">
 							A partir de:
@@ -22,11 +24,11 @@
 						</h2>
 
 						<div class="choose-color is-flex">
-							<article class="is-flex mt-5 mr-3 is-align-items-center is-justify-content-center white">
+							<article class="is-flex mt-5 mr-3 is-align-items-center is-justify-content-center white" title="Cor: branco">
 								Branco
 							</article>
 
-							<article class="is-flex mt-5 is-align-items-center is-justify-content-center black">
+							<article class="is-flex mt-5 is-align-items-center is-justify-content-center black" title="Cor: preto">
 								Preto
 							</article>
 						</div>
@@ -49,7 +51,7 @@
 				<b-carousel-item>
 					<section>
 						<div class="hero-body has-text-centered">
-							<img src="../static/img/persons/person-one.png" alt="Cliente João Ribeiro">
+							<img src="../static/img/persons/person-one.png" alt="Cliente João Ribeiro" title="Cliente João Ribeiro">
 
 							<p class="is-size-4 has-text-weight-bold">
 								João Ribeiro
@@ -69,7 +71,7 @@
 				<b-carousel-item>
 					<section>
 						<div class="hero-body has-text-centered">
-							<img src="../static/img/persons/person-two.png" alt="Cliente Ieda Gabriela">
+							<img src="../static/img/persons/person-two.png" alt="Cliente Ieda Gabriela" title="Cliente Ieda Gabriela">
 
 							<p class="is-size-4 has-text-weight-bold">
 								Ieda Gabriela
@@ -90,7 +92,7 @@
 				<b-carousel-item>
 					<section>
 						<div class="hero-body has-text-centered">
-							<img src="../static/img/persons/person-three.png" alt="Cliente Thiago Ramos">
+							<img src="../static/img/persons/person-three.png" alt="Cliente Thiago Ramos" title="Cliente Thiago Ramos">
 
 							<p class="is-size-5 has-text-weight-bold">
 								Thiago Ramos

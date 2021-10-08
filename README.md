@@ -1,3 +1,5 @@
+<img src="./static/logo/void-logo.svg" alt="Logo Void X" title="Logo Void X" width="80">
+
 # Void X
 
 ### About
@@ -12,7 +14,7 @@ Must have at least two pages, a main landing page presenting the product as best
 ### Technologies
 - Bulma 0.9.3
 - Vue.js 2
-- Nuxt 2.15.7
+- Nuxt 2.15.8
 
 ### Integrations
 - **Buefy**: Is a user interface component library made on top of  Vue.js  and  Bulma; two  _fresh_, but well-known, frameworks. Buefy has two core principles: 1. keep stuff simple and 2. be lightweight.

@@ -12,6 +12,7 @@ It should be a single page application with Static Site Generation, can use any 
 Must have at least two pages, a main landing page presenting the product as best as possible and a second contact page, with a form that must have validations working correctly with [Vuelidate](https://vuelidate.js.org/).
 
 ### Technologies
+- HTML 5
 - Bulma 0.9.3
 - Vue.js 2
 - Nuxt 2.15.8

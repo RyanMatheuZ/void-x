@@ -119,7 +119,19 @@
 export default {
 	head() {
 		return  {
-			title: 'Product | Void X'
+			title: 'Produto | Void X',
+			meta: [
+				{
+					hid: 'description',
+					name: 'description',
+					content: 'Void X. Faça a melhor aquisição de sua vida!'
+				},
+
+				// Open Graph
+				{ property: 'og:title', content: 'Produto | Void X' },
+				{ property: 'og:site_name', content: 'Produto | Void X' },
+				{ property: 'og:description', content: 'Void X. Faça a melhor aquisição de sua vida!' }
+			]
 		}
 	}
 }
@@ -141,7 +153,7 @@ export default {
 	div.choose-color article {
 		border-radius: 50%;
 		border: 1px solid var(--gray-color);
-		cursor: pointer;
+		cursor: no-drop;
 		height: 80px;
 		width: 80px;
 	}

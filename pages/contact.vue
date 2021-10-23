@@ -117,7 +117,19 @@ import { required, email, minLength } from 'vuelidate/lib/validators'
 export default {
 	head() {
 		return {
-			title: 'Contato | Void X'
+			title: 'Contato | Void X',
+			meta: [
+				{
+					hid: 'description',
+					name: 'description',
+					content: 'Void X. Agende uma conversa com nossos especialistas!'
+				},
+
+				// Open Graph
+				{ property: 'og:title', content: 'Contato | Void X' },
+				{ property: 'og:site_name', content: 'Contato | Void X' },
+				{ property: 'og:description', content: 'Void X. Agende uma conversa com nossos especialistas!' }
+			]
 		}
 	},
 

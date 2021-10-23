@@ -12,21 +12,25 @@ export default {
 			{ charset: 'utf-8' },
 			{ name: 'viewport', content: 'width=device-width, initial-scale=1' },
 			{ name: 'robots', content: 'index, follow' },
-			{
-				hid: 'description',
-				name: 'description',
-				content: 'Void X. O futuro está te esperando!'
-			},
 			{ name: 'subject', content: 'Venda de produto' },
 			{ name: 'topic', content: 'Tecnologia' },
 			{ name: 'format-detection', content: 'telephone=no' },
-			{ name: 'url', content: 'https://void-x.vercel.app' },
 			{ name: 'creator', content: 'Ryan Matheus de Oliveira' },
 			{ name: 'generator', content: 'Visual Studio Code' },
-			{ name: 'theme-color', content: '#222' }
+			{ name: 'theme-color', content: '#222' },
+
+			// Open Graph
+			{ property: 'og:author', content: 'Ryan Matheus de Oliveira' },
+			{ property: 'og:type', content: 'Loja virtual' },
 		],
 		link: [
-			{ rel: 'icon', type: 'image/svg', href: '/favicon.svg' }
+			{ rel: 'icon', type: 'image/svg', href: '/favicon.svg' },
+			{ rel: 'preconnect', href:'https://fonts.googleapis.com' },
+			{ rel: 'preconnect', href:'https://fonts.gstatic.com' },
+			{
+				rel: 'stylesheet',
+				href: 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap'
+			}
 		]
 	},
 

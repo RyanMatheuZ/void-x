@@ -125,7 +125,24 @@
 export default {
 	head() {
 		return {
-			title: 'Início | Void X'
+			title: 'Início | Void X',
+			meta: [
+				{
+					hid: 'description',
+					name: 'description',
+					content: 'Void X. O futuro está te esperando!'
+				},
+				{
+					name: 'url',
+					content: 'https://void-x.vercel.app'
+				},
+
+				// Open Graph
+				{ property: 'og:title', content: 'Início | Void X' },
+				{ property: 'og:site_name', content: 'Início | Void X' },
+				{ property: 'og:description', content: 'Void X. O futuro está te esperando!' },
+				{ property: 'og:url', content: 'https://void-x.vercel.app' }
+			]
 		}
 	}
 }
@@ -147,7 +164,6 @@ export default {
 
 	article.card:hover {
 		box-shadow: 0 0 20px var(--purple-color);
-		cursor: pointer;
 		transform: scale(1.03);
 		transition: 0.3s ease;
 	}

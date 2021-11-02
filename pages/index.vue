@@ -5,7 +5,7 @@
 		<HomePresentation />
 
 		<HomeSlanted />
-
+		
 		<HomeAbout />
 	</main>
 </template>

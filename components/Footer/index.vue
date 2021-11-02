@@ -7,7 +7,14 @@
 		<div class="py-5 footer">
 			<div class="is-flex is-justify-content-center">
 				<nuxt-link :to="{ path: '/' }">
-					<img src="../../static/logo/void-logo.svg" alt="Void X" title="Void X" width="100">
+					<img
+						src="~/static/logo/void-logo.svg"
+						alt="Void X"
+						title="Void X"
+						draggable="false"
+						loading="lazy"
+						width="100"
+					>
 				</nuxt-link>
 			</div>
 
@@ -17,7 +24,7 @@
 						v-for="(item, index) of contactItems"
 						:key="index"
 						:title="item.title"
-						class="has-text-white mx-2"
+						class="has-text-white mx-2 my-1"
 					>
 						{{ item.label }}
 					</li>
@@ -38,9 +45,18 @@ export default {
 			currentYear: new Date().getFullYear(),
 
 			contactItems: [
-				{ label: 'R. Rui Barbosa, 140. Matão-SP', title: 'Endereço' },
-				{ label: 'void@void.com.br', title: 'E-mail' },
-				{ label: '(16) 98653-8754', title: 'Telefone' }
+				{
+					label: 'R. Rui Barbosa, 140. Matão-SP',
+					title: 'Endereço'
+				},
+				{
+					label: 'void@void.com.br',
+					title: 'E-mail'
+				},
+				{
+					label: '(16) 98653-8754',
+					title: 'Telefone'
+				}
 			]
 		}
 	}

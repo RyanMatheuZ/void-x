@@ -9,11 +9,10 @@ export default {
 			lang: 'pt-br'
 		},
 		meta: [
-			{ charset: 'utf-8' },
+			{ charset: 'UTF-8' },
 			{ name: 'viewport', content: 'width=device-width, initial-scale=1' },
 			{ name: 'robots', content: 'index, follow' },
 			{ name: 'subject', content: 'Venda de produto' },
-			{ name: 'topic', content: 'Tecnologia' },
 			{ name: 'format-detection', content: 'telephone=no' },
 			{ name: 'creator', content: 'Ryan Matheus de Oliveira' },
 			{ name: 'generator', content: 'Visual Studio Code' },
@@ -29,7 +28,7 @@ export default {
 			{ rel: 'preconnect', href:'https://fonts.gstatic.com' },
 			{
 				rel: 'stylesheet',
-				href: 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap'
+				href: 'https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap'
 			}
 		]
 	},

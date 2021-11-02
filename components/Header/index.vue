@@ -6,19 +6,24 @@
 					tag="nuxt-link"
 					:to="{ path: '/' }"
 				>
-					<figure class="image">
-						<img src="../../static/logo/void-logo.svg" alt="Void X" title="Void X">
-					</figure>
+					<img
+						src="~/static/logo/void-logo.svg"
+						alt="Void X"
+						title="Void X"
+						draggable="false"
+						loading="lazy"
+						width="80"
+					>
 				</b-navbar-item>
 			</template>
 
 			<template #end>
 				<b-navbar-item
-					v-for="(item, index) in menuItems"
+					v-for="(item, index) of menuItems"
 					:key="index"
 					:to="item.path"
 					tag="nuxt-link"
-					class="has-text-weight-semibold"
+					class="is-size-6-mobile has-text-weight-medium"
 				>
 					{{ item.label }}
 				</b-navbar-item>
@@ -32,10 +37,22 @@ export default {
 	data() {
 		return {
 			menuItems: [
-				{ label: 'Início', path: '/' },
-				{ label: 'Produto', path: '/product' },
-				{ label: 'Sobre', path: '/#about'},
-				{ label: 'Contato', path: '/contact' }
+				{
+					label: 'Início',
+					path: '/'
+				},
+				{
+					label: 'Produto',
+					path: '/product'
+				},
+				{
+					label: 'Sobre',
+					path: '/#about'
+				},
+				{
+					label: 'Contato',
+					path: '/contact'
+				}
 			]
 		}
 	}

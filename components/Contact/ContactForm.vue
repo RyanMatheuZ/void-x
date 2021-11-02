@@ -104,7 +104,7 @@ export default {
 		}
 	},
 
-	mixins: [ validationMixin ],
+	mixins: [validationMixin],
 
 	validations: {
 		name: { required, minLength: minLength(4) },

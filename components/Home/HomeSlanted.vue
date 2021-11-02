@@ -40,8 +40,6 @@
 import getPicture from '~/mixins/getPicture.js'
 
 export default {
-	mixins: [getPicture],
-
 	data() {
 		return {
 			cardItems: [
@@ -62,7 +60,9 @@ export default {
 				}
 			]
 		}
-	}
+	},
+
+	mixins: [getPicture],
 }
 </script>
 

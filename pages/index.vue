@@ -1,12 +1,12 @@
 <template>
 	<main>
-		<HomeSectionMain />
+		<HomeMain />
 
-		<HomeSectionPresentation />
+		<HomePresentation />
 
-		<HomeSectionSlanted />
+		<HomeSlanted />
 
-		<HomeSectionAbout />
+		<HomeAbout />
 	</main>
 </template>
 

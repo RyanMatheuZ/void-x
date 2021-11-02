@@ -1,8 +1,8 @@
 <template>
 	<main>
-		<ProductSectionBuy />
+		<ProductBuy />
 
-		<ProductSectionFeedback />
+		<ProductFeedback />
 	</main>
 </template>
 

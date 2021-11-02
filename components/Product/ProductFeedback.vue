@@ -38,8 +38,6 @@
 import getPicture from '~/mixins/getPicture.js'
 
 export default {
-	mixins: [getPicture],
-
 	data() {
 		return {
 			carouselItems: [
@@ -63,7 +61,9 @@ export default {
 				}
 			]
 		}
-	}
+	},
+
+	mixins: [getPicture],
 }
 </script>
 

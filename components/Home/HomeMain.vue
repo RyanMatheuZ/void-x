@@ -1,4 +1,4 @@
-<template functional>
+<template>
 	<section class="section bg-black">
 		<div class="columns container is-fullhd mx-auto">
 			<article class="column is-half is-full-tablet is-flex is-align-items-center is-justify-content-center">

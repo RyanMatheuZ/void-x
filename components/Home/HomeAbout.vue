@@ -1,4 +1,4 @@
-<template>
+<template functional>
 	<section id="about" class="section pb-0">
 		<div class="container is-max-desktop">
 			<h2 class="is-size-2-desktop is-size-4-mobile has-text-weight-semibold mx-auto mb-3">
